@@ -6,6 +6,8 @@ echo "\n\t\t\t Please open it with administrator (sudo) privileges"
 echo ""
 echo "Creating folders and copying..."
 mkdir ~/bin/kiwix
+cd ~/bin/kiwix
+wget https://download.kiwix.org/release/kiwix-tools/kiwix-tools_linux-armhf-3.1.2.tar.gz
 cp -vfr kiwix-tools_linux-i586-3.1.2 zims $HOME/bin/kiwix
 
 chmod +x /etc/rc.local
