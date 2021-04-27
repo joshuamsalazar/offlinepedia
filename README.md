@@ -6,3 +6,7 @@ Si quieres más detalle sobre cómo instalar todo lo necesario puedes seguir est
 
 https://es.wikibooks.org/wiki/OfflinePedia
 
+En tu Raspberry Pi, una ves lo tengas listo de acuerdo al tutorial anterior. Enciéndelo y abre un terminal ( [Ctrl] + [Alt]  + [T] ). Una vez dentro escribe:
+
+` $ sudo ./install_kiwix_RasbperryPi.sh `
+
