@@ -10,3 +10,8 @@ En tu Raspberry Pi, una ves lo tengas listo de acuerdo al tutorial anterior. Enc
 
 ` $ sudo ./install_kiwix_RasbperryPi.sh `
 
+¡Dejas que el programa se encargue de lo suyo y listo!
+
+Para acceder a los contenidos de Wikipedia y otros paquetes ue hayas descargado abres tu navegador en la dirección:
+
+` 127.0.0.1 `
