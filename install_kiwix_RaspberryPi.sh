@@ -19,4 +19,6 @@ echo "#Kiwix startup command" >> /etc/rc.local
 echo $HOME/bin/kiwix/kiwix-tools_linux-i586-3.1.2/kiwix-serve $HOME/bin/kiwix/zims/*.zim $HOME/bin/kiwix/zims/*.zimaa >> /etc/rc.local 
 sh /etc/rc.local
 
+echo "Kiwix instalador correctamente: ¡Disfruta de tu OfflinePedia!"
+
 chromium 127.0.0.1
