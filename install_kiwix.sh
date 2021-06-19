@@ -5,7 +5,7 @@
 echo "\n\t\t\t Please open it with administrator (sudo) privileges"
 echo ""
 echo "Creating folders and copying..."
-mkdir ~/bin/kiwix
+mkdir -p ~/bin/kiwix
 cd ~/bin/kiwix
 wget https://download.kiwix.org/release/kiwix-tools/kiwix-tools_linux-i586-3.1.2.tar.gz
 tar xf kiwix-tools_linux-i586-3.1.2.tar.gz
