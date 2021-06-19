@@ -18,7 +18,7 @@ cd ..
 
 #Testear
 cd ~/bin/kiwix/kiwix-tools_linux-i586-3.1.2
-sudo ./kiwix-serve ../zims/*.zim ../zims/*.zimaa
+sudo ./kiwix-serve ../zims/*.zim # ../zims/*.zimaa
 
 
 chmod +x /etc/rc.local
