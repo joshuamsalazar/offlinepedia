@@ -2,8 +2,8 @@
 #Installer for Kiwix serve over Desktop linux
 #
 #Please copy any new zim files to the zims folder and they will be automatically updated
-echo "\n\t\t\t Please open it with administrator (sudo) privileges"
-echo ""
+echo "\n\n\n\t\t\t Please open it with administrator (sudo) privileges"
+echo "\n\n\n"
 echo "Creating folders and copying..."
 mkdir -p ~/bin/kiwix
 cd ~/bin/kiwix
@@ -18,7 +18,7 @@ cd ..
 
 #Testear
 cd ~/bin/kiwix/kiwix-tools_linux-i586-3.1.2
-./kiwix-serve ../zims/*.zim ../zims/*.zimaa
+sudo ./kiwix-serve ../zims/*.zim ../zims/*.zimaa
 
 
 chmod +x /etc/rc.local
