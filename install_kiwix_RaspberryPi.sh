@@ -2,7 +2,7 @@
 #Installer for Kiwix serve
 #
 #Please copy any new zim files to the zims folder and they will be automatically updated
-echo "\n\t\t\t Please open it with administrator (sudo) privileges"
+#echo "\n\t\t\t Please open it with administrator (sudo) privileges"
 echo ""
 echo "Creating folders and copying..."
 mkdir -p ~/bin/kiwix
@@ -10,6 +10,9 @@ cd ~/bin/kiwix
 wget https://download.kiwix.org/release/kiwix-tools/kiwix-tools_linux-armhf-3.1.2.tar.gz
 tar xf kiwix-tools_linux-armhf-3.1.2.tar.gz
 cd kiwix-tools_linux-armhf-3.1.2
+cd ..
+mkdir zims
+cd zims
 wget https://download.kiwix.org/zim/vikidia/vikidia_es_all_maxi_2021-03.zim
 #sudo ./kiwix-serve vikidia_es_all_maxi_2021-03.zim &
 
