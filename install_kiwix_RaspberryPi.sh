@@ -11,14 +11,13 @@ wget https://download.kiwix.org/release/kiwix-tools/kiwix-tools_linux-armhf-3.1.
 tar xf kiwix-tools_linux-armhf-3.1.2.tar.gz
 cd kiwix-tools_linux-armhf-3.1.2
 wget https://download.kiwix.org/zim/vikidia/vikidia_es_all_maxi_2021-03.zim
-sudo ./kiwix-serve vikidia_es_all_maxi_2021-03.zim
-#cp -vfr kiwix-tools_linux-i586-3.1.2 zims $HOME/bin/kiwix
+#sudo ./kiwix-serve vikidia_es_all_maxi_2021-03.zim &
 
 sudo chmod 777 /etc/rc.local
 echo "#Kiwix startup command" >> /etc/rc.local
-echo $HOME/bin/kiwix/kiwix-tools_linux-i586-3.1.2/kiwix-serve $HOME/bin/kiwix/zims/*.zim $HOME/bin/kiwix/zims/*.zimaa >> /etc/rc.local 
-sh /etc/rc.local
+echo $HOME/bin/kiwix/kiwix-tools_linux-armhf-3.1.2/kiwix-serve $HOME/bin/kiwix/zims/*.zim >> /etc/rc.local # $HOME/bin/kiwix/zims/*.zimaa >> /etc/rc.local 
+sudo sh /etc/rc.local
 
-echo "Kiwix instalador correctamente: ¡Disfruta de tu OfflinePedia!"
+read -p "\n\n\t\t Kiwix instalado correctamente: ¡Disfruta de tu OfflinePedia! \n\n Presiona ENTER para abrir el lector"
 
-chromium 127.0.0.1
+chromium-browser 127.0.0.1 &
