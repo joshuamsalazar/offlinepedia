@@ -15,3 +15,5 @@ En tu Raspberry Pi, una ves lo tengas listo de acuerdo al tutorial anterior. Enc
 Para acceder a los contenidos de Wikipedia y otros paquetes ue hayas descargado abres tu navegador en la dirección:
 
 ` 127.0.0.1 `
+
+Por si necesitas ayuda o quieres contactarnos escríbenos por nuestras págias de discusión en el tutorial de WikiLibros, o al correo offlinepedia@gmail.com
